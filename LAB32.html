@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BNMIT</title>
+    <style>
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+      }
+      li{
+          float: left;
+      }
+      li a{
+          width: 100px;
+          padding: 20px;
+          display: block;
+          color: white;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+      }
+      li select{
+           width: 100px;
+          padding: 20px;
+          display: block;
+          color: white;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+          background-color: #333;
+      }
+      li a:hover
+      {
+          background-color: #111;
+      }
+      .header h1
+      {
+        color: rgb(240, 75, 34);
+        font-family: cursive;
+        position: relative;
+        top: 18px;
+        left: 10px;
+      }
+      .header img {
+        float: left;
+        width: 100px;
+        height: 100px;
+        background: #555;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;  
+  margin: 0;  
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+  background-color: #111;
+}
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown-content a {
+  float: none;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+    </style>
+</head>
+<body>
+    <div class="header">
+    <h1 style="display: inline; ">BNM Institute Of Technology</h1>
+    <img src="1.jpg" alt="" height="100px" width="100px" >
+    </div>
+    <br><br><br>
+    <br>
+    <ul>
+        <li><a href="about.html">About</a></li>
+        <li>
+          <div class="dropdown">
+    <button class="dropbtn">Courses
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="faculties.html">ISE FACULTIES</a>
+    </div>
+  </div>
+        </li>
+        <li><a href="register.html">Library</a></li>
+      </ul>
+      <br><br>
+    <img src="2.jpg" alt="" style="border-radius: 10px; margin-left: 200px;">
+</body>
+</html>
